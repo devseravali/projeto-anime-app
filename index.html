@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime Radar - Painel de Animes</title>
+
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>AnimeRadar</h1>
+        <p class="slogan">Seu radar definitivo para descobrir e analisar animes</p>
+      </header>
+    
+      <section class="filtros" aria-label="Filtros de animes">
+        <fieldset>
+          <legend>Buscar por nome</legend>
+          <input type="search" id="searchInput" placeholder="Digite o nome do anime" aria-label="Busca por nome de anime" />
+        </fieldset>    
+
+    <fieldset>
+        <legend>Gênero</legend>
+        <select id="genreSelect" aria-label="Filtrar por gênero">
+            <option value="">Todos os gêneros</option>
+            <option value="Action">Ação</option>
+            <option value="Adventure">Aventura</option>
+            <option value="Comedy">Comédia</option>
+            <option value="Drama">Drama</option>
+            <option value="Fantasy">Fantasia</option>
+            <option value="Magic">Magia</option>
+            <option value="Mystery">Mistério</option>
+            <option value="Romance">Romance</option>
+            <option value="Sci-fi">Ficção Científica</option>
+            <option value="Slice of Life">Slice of Life</option>
+            <option value="Sports">Esportes</option>
+            <option value="Supernatural">Sobrenatual</option>
+            <option value="Thriller">Suspense</option>
+            <option value="Horror">Terror</option>
+            <option value="Mecha">Mecha</option>
+            <option value="Psychological">Psicológico</option>
+            <option value="Historical">Histórico</option>
+            <option value="Seinen">Seinen</option>
+            <option value="Shoujo">Shoujo</option>
+            <option value="Shounen">Shounen</option>
+            <option value="Military">Militar</option>
+            <option value="Music">Música</option>
+            <option value="Ecchi">Ecchi</option>
+            <option value="Harem">Harém</option>
+        </select>
+    </fieldset>
+
+    <fieldset>
+        <legend>Temporada</legend>
+        <select id="seansonSelect" aria-label="Filtrar por temporada">
+            <option value="">Todas as temporadas</option>
+            <option value="WINTER">Inverno</option>
+            <option value="SPRING">Primavera</option>
+            <option value="SUMMER">Verão</option>
+            <option value="FALL"> Outuno</option>
+        </select>
+    </fieldset>
+
+    <fieldset>
+        <legend>Ano</legend>
+        <select id="yearSelect" aria-label="Filtrar por ano">
+            <option value="">Todos os anos</option>
+        </select>
+    </fieldset>
+
+    <fieldset>
+        <legend>Animes por página</legend>
+        <select id="perPageSelecy" aria-label="Quantidade de animes por página">
+          <option value="5">5</option>
+          <option value="10" selected>10</option>
+          <option value="15">15</option>
+          <option value="20">20</option>
+        </select>
+    </fieldset>
+</section>
+
+<main>
+    <section id="animeCards" class="anime-card" aria-live="polite" aria-label="Lista de animes"></section>
+    <nav class="paginacao" aria-label="Navegação da página de animes">
+    <button id="prevPageBtn" aria-label="Página anterior">Anterior</button>
+    <span id="pageInfo"></span>
+    <button id="nextPageBtn" aria-label="Próxima página">Próximo</button>
+    </nav>
+</main>
+
+<footer>
+    <p>© 2025 AnimeRadar — Seu radar definitivo para descobrir e analisar animes</p>
+</footer>
+
+<script src="src/js/index.js"></script>
+</body>
+</html>
