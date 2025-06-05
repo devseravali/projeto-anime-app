@@ -1,0 +1,26 @@
+/* css tema claro - estilo "Shonen" */
+:root {
+    --cor-fundo: #fceecf;               /* Bege dourado claro */
+    --cor-texto: #1c1c1e;               /* Quase preto */
+    --cor-primaria: #ff7043;            /* Laranja vibrante */
+    --cor-primaria-hover: #ff5722;      /* Laranja mais intenso */
+    --cor-borda: #ffcc99;               /* Bege alaranjado */
+    --cor-fundo-card: #ffffff;          /* Branco padrão */
+    --cor-borda-card: #ffd6b3;          /* Bege pastel claro */
+    --cor-borda-card-hover: #ff7043;    /* Laranja vivo no hover */
+    --cor-texto-secundario: #4a4a4a;    /* Cinza escuro */
+  }
+  
+  /* css tema escuro - estilo "Shonen" invertido */
+body.modo-escuro {
+    --cor-fundo: #1c1c1e;               /* Fundo escuro */
+    --cor-texto: #fceecf;               /* Texto claro dourado */
+    --cor-primaria: #ff7043;            /* Laranja vibrante */
+    --cor-primaria-hover: #ff5722;      /* Laranja mais forte */
+    --cor-borda: #3a3a3c;               /* Cinza profundo */
+    --cor-fundo-card: #29292c;          /* Cinza escuro médio */
+    --cor-borda-card: #3f3f41;          /* Borda escura */
+    --cor-borda-card-hover: #ff7043;    /* Hover com destaque laranja */
+    --cor-texto-secundario: #aaa088;    /* Bege acinzentado */
+  }
+  
