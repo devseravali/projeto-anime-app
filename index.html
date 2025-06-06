@@ -24,10 +24,11 @@
     <header class="cabecalho">    
         <h1 class="titulo-cabecalho">Anime Radar</h1>
         <p class="subtitulo-cabecalho">Tudo sobre animes, em um só lugar.</p>
-        <label class="toggle-switch">
-            <input type="checkbox" id="toggleTheme" />
+
+        <label class="toggle-switch" for="toggleTheme">
+            <input type="checkbox" id="toggleTheme" aria-label="Altermar tema claro e escuro">
             <span class="slider"></span>
-          </label>
+        </label>
     </header>
 
     <main class="conteudo-principal">
@@ -79,6 +80,9 @@
         
         <nav class="paginacao" aria-label="Paginação" id="paginacao">
         </nav>
+
+        <section id="container-trailer" class="container-trailer" aria-label="trailer-label">
+        </section>
     </main>
 
     <footer class="rodape">
