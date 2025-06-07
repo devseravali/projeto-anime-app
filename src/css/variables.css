@@ -1,25 +1,33 @@
 /* Tema Claro - Diário de Apotecária */
 :root {
-  --cor-fundo: #f5f3ee;           /* Bege suave, tipo papel antigo */
-  --cor-texto: #4a453f;           /* Marrom escuro ameno */
-  --cor-primaria: #7a9e7e;        /* Verde musgo, natural */
-  --cor-primaria-hover: #5e7b5a;  /* Verde musgo escuro */
-  --cor-borda: #c4b99a;           /* Bege amarelado */
-  --cor-fundo-card: #ffffff;      /* Branco */
-  --cor-borda-card: #d1cdb7;      /* Bege claro */
-  --cor-borda-card-hover: #7a9e7e;/* Verde musgo */
-  --cor-texto-secundario: #88826a;/* Cinza esverdeado */
+  --cor-fundo: #f5f3ee;           
+  --cor-texto: #4a453f;          
+  --cor-primaria: #7a9e7e;        
+  --cor-primaria-hover: #5e7b5a;  
+  --cor-borda: #c4b99a;           
+  --cor-fundo-card: #ffffff;      
+  --cor-borda-card: #d1cdb7;      
+  --cor-borda-card-hover: #7a9e7e;
+  --cor-texto-secundario: #88826a;
+  --cor-curiosidade-bg: #f7ede2;
+  --cor-curiosidade-hover: #f1f8f5;
+  --cor-curiosidade-borda: #b4d3c4;
+  --cor-curiosidade-texto: #3a4d3f;
 }
 
 /* Tema Escuro - Diário de Apotecária */
 body.tema-escuro {
-  --cor-fundo: #2e2c27;           /* Marrom escuro / terra */
-  --cor-texto: #d3d0c7;           /* Bege claro */
-  --cor-primaria: #7a9e7e;        /* Verde musgo */
-  --cor-primaria-hover: #5e7b5a;  /* Verde musgo escuro */
-  --cor-borda: #595543;           /* Marrom médio */
-  --cor-fundo-card: #3c3a34;      /* Marrom escuro médio */
-  --cor-borda-card: #525044;      /* Marrom acinzentado */
+  --cor-fundo: #2e2c27;           
+  --cor-texto: #d3d0c7;           
+  --cor-primaria: #7a9e7e;        
+  --cor-primaria-hover: #5e7b5a;  
+  --cor-borda: #595543;           
+  --cor-fundo-card: #3c3a34;      
+  --cor-borda-card: #525044;      
   --cor-borda-card-hover: #7a9e7e;
-  --cor-texto-secundario: #a09f8f;/* Bege acinzentado */
+  --cor-texto-secundario: #a09f8f;
+  --cor-curiosidade-bg: #2e3d34;
+  --cor-curiosidade-hover: #3f5146;
+  --cor-curiosidade-borda: #4f6d5b;
+  --cor-curiosidade-texto: #e4f4e6;
 }
