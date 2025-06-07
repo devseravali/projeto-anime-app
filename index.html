@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,7 +11,6 @@
     <link rel="stylesheet" href="src/css/style.css">
     <link rel="stylesheet" href="src/css/responsivo.css">
 
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -20,7 +18,6 @@
         rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
-
 </head>
 
 <body>   
@@ -31,10 +28,10 @@
         <label class="toggle-switch" for="toggleTheme">
             <input type="checkbox" id="toggleTheme" aria-label="Alternar tema claro e escuro">
             <span class="slider">
-              <i class="fa-solid fa-cat icone claro" aria-hidden="true"></i>
-              <i class="fa-solid fa-moon icone escuro" aria-hidden="true"></i>
+                <i class="fa-solid fa-cat icone claro" aria-hidden="true"></i>
+                <i class="fa-solid fa-moon icone escuro" aria-hidden="true"></i>
             </span>
-          </label>          
+        </label>          
     </header>
 
     <main class="conteudo-principal">
@@ -43,10 +40,8 @@
                 <p id="desc-filtros" class="descricao-filtros">Filtre os animes por ano, temporada, gênero e nome</p>
 
                 <div class="grupo-filtros">
-                    <label for="temporada-filtro" class="rotulo-filtros">
-                        Temporada:</label>
+                    <label for="temporada-filtro" class="rotulo-filtros">Temporada:</label>
                     <select id="temporada-filtro" name="temporada" class="seletor-filtros">
-
                         <option value="">Todas</option>
                         <option value="Primavera">Primavera</option>
                         <option value="Verão">Verão</option>
@@ -63,16 +58,15 @@
                 </div>
 
                 <div class="grupo-filtros">
-                    <label for="busca-nome" class="rotulos-filtros">Buscar por nome:</label>
-                    <input type="search" id="busca-nome" class="campo-busca" placeholder="Digite o nome do anime"
-                        aria-label="Buscar por nome do anime">
+                    <label for="busca-nome" class="rotulo-filtros">Buscar por nome:</label>
+                    <input type="search" id="busca-nome" class="campo-busca" placeholder="Digite o nome do anime" aria-label="Buscar por nome do anime">
                 </div>
 
                 <div class="grupo-filtros">
                     <label for="quantidade-pagina" class="rotulo-filtros">Animes por página:</label>
                     <select id="quantidade-pagina" name="quantidadePagina" class="seletor-filtros">
                         <option value="5">5</option>
-                        <option value="10">10</option>
+                        <option value="10" selected>10</option>
                         <option value="15">15</option>
                     </select>
                 </div>
@@ -86,9 +80,6 @@
         
         <nav class="paginacao" aria-label="Paginação" id="paginacao">
         </nav>
-
-        <section id="container-trailer" class="container-trailer" aria-label="trailer-label">
-        </section>
     </main>
 
     <footer class="rodape">
@@ -97,5 +88,4 @@
 
     <script type="module" src="src/js/index.js"></script>
 </body>
-
 </html>
