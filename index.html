@@ -18,6 +18,9 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&display=swap"
         rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+
 </head>
 
 <body>   
@@ -26,9 +29,12 @@
         <p class="subtitulo-cabecalho">Tudo sobre animes, em um só lugar.</p>
 
         <label class="toggle-switch" for="toggleTheme">
-            <input type="checkbox" id="toggleTheme" aria-label="Altermar tema claro e escuro">
-            <span class="slider"></span>
-        </label>
+            <input type="checkbox" id="toggleTheme" aria-label="Alternar tema claro e escuro">
+            <span class="slider">
+              <i class="fa-solid fa-cat icone claro" aria-hidden="true"></i>
+              <i class="fa-solid fa-moon icone escuro" aria-hidden="true"></i>
+            </span>
+          </label>          
     </header>
 
     <main class="conteudo-principal">
