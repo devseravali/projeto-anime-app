@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Anime Radar - Painel de Animes</title>
+    <title>Anime Radar - Onde a paixão por animes encontra curiosidades incríveis.</title>
 
     <link rel="stylesheet" href="src/css/variables.css">
     <link rel="stylesheet" href="src/css/reset.css">
@@ -23,7 +23,7 @@
 <body>   
     <header class="cabecalho">    
         <h1 class="titulo-cabecalho">Anime Radar</h1>
-        <p class="subtitulo-cabecalho">Tudo sobre animes, em um só lugar.</p>
+        <p class="subtitulo-cabecalho">Onde a paixão por animes encontra curiosidades incríveis.</p>
 
         <label class="toggle-switch" for="toggleTheme">
             <input type="checkbox" id="toggleTheme" aria-label="Alternar tema claro e escuro">
@@ -78,19 +78,15 @@
         <section class="secao-lista-animes" aria-label="Lista de animes" id="lista-animes">
         </section>
         
-        <section class="secao-curiosidade" id="card-curiosidade">
-            <div class="card-curiosidade" id="card-curiosidade">
-            <img 
-            id="imagem-planta" 
-            src="" 
-            alt="Planta medicinal"
-            class="imagem-planta"
-            hidden
-            />
-            <p id="texto-curiosidade" class="texto-curiosidade"></p>
-            </div>
+        <section class="secao-curisosidade" aria-label="Curiosidade sobre anime">
+            <button class="botao-curiosidade" id="btnCuriosidade" type="button" aria-expanded="false" aria-controls="cardCuriosidade">
+                Mostrar Curiosidade
+            </button>
+        <article class="card-curiosidade" id="cardCuriosidade" aria-live="polite" hidden>
+            <img src="" alt="Imagem de planta medicinal" class="imagem-planta" id="imgPlanta">
+        </article>
         </section>
-        
+                 
         <nav class="paginacao" aria-label="Paginação" id="paginacao">
         </nav>
     </main>
