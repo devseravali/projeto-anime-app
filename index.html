@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,17 +14,19 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 </head>
 
-<body>   
-    <header class="cabecalho">    
+<body>
+    <header class="cabecalho">
         <h1 class="titulo-cabecalho">Anime Radar</h1>
-        <p class="subtitulo-cabecalho">Onde a paixão por animes encontra curiosidades incríveis.</p>
+        <p class="subtitulo-cabecalho slogan">Onde a paixão por animes encontra curiosidades incríveis.</p>
 
         <label class="toggle-switch" for="toggleTheme">
             <input type="checkbox" id="toggleTheme" aria-label="Alternar tema claro e escuro">
@@ -31,7 +34,7 @@
                 <i class="fa-solid fa-cat icone claro" aria-hidden="true"></i>
                 <i class="fa-solid fa-moon icone escuro" aria-hidden="true"></i>
             </span>
-        </label>          
+        </label>
     </header>
 
     <main class="conteudo-principal">
@@ -59,7 +62,8 @@
 
                 <div class="grupo-filtros">
                     <label for="busca-nome" class="rotulo-filtros">Buscar por nome:</label>
-                    <input type="search" id="busca-nome" class="campo-busca" placeholder="Digite o nome do anime" aria-label="Buscar por nome do anime">
+                    <input type="search" id="busca-nome" class="campo-busca" placeholder="Digite o nome do anime"
+                        aria-label="Buscar por nome do anime">
                 </div>
 
                 <div class="grupo-filtros">
@@ -77,16 +81,17 @@
 
         <section class="secao-lista-animes" aria-label="Lista de animes" id="lista-animes">
         </section>
-        
+
         <section class="secao-curisosidade" aria-label="Curiosidade sobre anime">
-            <button class="botao-curiosidade" id="btnCuriosidade" type="button" aria-expanded="false" aria-controls="cardCuriosidade">
+            <button class="botao-curiosidade" id="btnCuriosidade" type="button" aria-expanded="false"
+                aria-controls="cardCuriosidade">
                 Mostrar Curiosidade
             </button>
-        <article class="card-curiosidade" id="cardCuriosidade" aria-live="polite" hidden>
-            <img src="" alt="Imagem de planta medicinal" class="imagem-planta" id="imgPlanta">
-        </article>
+            <article class="card-curiosidade" id="cardCuriosidade" aria-live="polite" hidden>
+                <img src="" alt="Imagem de planta medicinal" class="imagem-planta" id="imgPlanta">
+            </article>
         </section>
-                 
+
         <nav class="paginacao" aria-label="Paginação" id="paginacao">
         </nav>
     </main>
@@ -97,4 +102,5 @@
 
     <script type="module" src="src/js/index.js"></script>
 </body>
+
 </html>
