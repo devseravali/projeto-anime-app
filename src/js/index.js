@@ -1,4 +1,5 @@
 import { animes } from './animes.js';
+
 console.log(animes);
 
 const DOM = {
@@ -10,6 +11,9 @@ const DOM = {
     paginacao: document.getElementById("paginacao"),
     toggleTheme: document.getElementById("toggleTheme"), 
     formFiltros: document.getElementById("form-filtros"),
+    btnCuriosidade: document.getElementById("btnCuriosidade"),
+    cardCuriosidade: document.getElementById("cardCuriosidade"),
+    textoCuriosidade: document.getElementById("textoCuriosidade"),
 };
 
 let paginaAtual = 1;
@@ -17,7 +21,6 @@ let animesFiltrados = [...animes];
 
 function configurarTema() {
     const temaSalvo = localStorage.getItem("tema");
-
     if (temaSalvo === "escuro") {
         document.body.classList.add("tema-escuro");
         DOM.toggleTheme.checked = true;
@@ -46,7 +49,6 @@ function aplicarFiltros() {
         const nomeMatch = titulo.toLowerCase().includes(nomeBusca);
         const temporadaMatch = !temporadaSelecionada || temporada.toLowerCase() === temporadaSelecionada;
         const generoMatch = !generoSelecionado || genero.join(", ").toLowerCase().includes(generoSelecionado);
-
         return nomeMatch && temporadaMatch && generoMatch;
     });
 
@@ -54,9 +56,30 @@ function aplicarFiltros() {
     renderizarLista();
 }
 
+function criarCardAnime(anime, index) {
+    const card = document.createElement('div');
+    card.className = 'card-anime';
+
+    card.innerHTML = `
+    <h3>${anime.titulo}</h3>
+    <p><strong>Ano:</strong> ${anime.ano}</p>
+    <p><strong>Temporada:</strong> ${anime.temporada}</p>
+    <p><strong>Gênero:</strong> ${anime.genero.join(", ")}</p>
+    <p><strong>Sinopse:</strong> ${anime.sinopse}</p>
+    <img src="${anime.capa}" alt="Capa do anime ${anime.titulo}"/>
+    <button class="botao-curiosidade" data-index="${index}">
+      Mostrar Curiosidade
+    </button>
+    <p id="curiosidade-${index}" class="curiosidade-anime" style="display:none;">
+      <strong>Curiosidade:</strong> ${anime.curiosidade}
+    </p>
+    `;
+
+    return card;
+}
+
 function renderizarLista() {
     DOM.listaContainer.innerHTML = "";
-    // Removido o DOM.containerTrailer porque não está definido no DOM
 
     const qtdPorPagina = parseInt(DOM.quantidadePagina.value);
     const inicio = (paginaAtual - 1) * qtdPorPagina;
@@ -68,30 +91,19 @@ function renderizarLista() {
         return;
     }
 
-    animesPagina.forEach(anime => {
-        DOM.listaContainer.appendChild(criarCardAnime(anime));
+    animesPagina.forEach((anime, index) => {
+        DOM.listaContainer.appendChild(criarCardAnime(anime, index));
+    });    
+
+    const botoesCuriosidade = DOM.listaContainer.querySelectorAll(".botao-curiosidade");
+    botoesCuriosidade.forEach(botao => {
+        botao.addEventListener("click", () => {
+            const idx = botao.getAttribute("data-index");
+            mostrarCuriosidade(idx);
+        });
     });
 
     renderizarPaginacao();
-}  // <-- Fechamento da função renderizarLista corrigido
-
-function criarCardAnime({ titulo, capa, nota, popularidade, ano, temporada, genero, sinopse }) {
-    const card = document.createElement("article");
-    card.className = "card-anime";
-
-    card.innerHTML = `
-        <img src="${capa}" alt="Capa de ${titulo}" class="capa-anime">
-        <div class="info-anime">
-            <h2 class="titulo-anime">${titulo}</h2>
-            <p class="nota-anime"><strong>Nota:</strong> ${nota}</p>
-            <p class="popularidade-anime"><strong>Popularidade:</strong> ${popularidade}</p>
-            <p class="ano-temporada-anime"><strong>Ano:</strong> ${ano} | <strong>Temporada:</strong> ${temporada}</p>
-            <p class="genero-anime"><strong>Gênero:</strong> ${genero.join(", ")}</p>
-            <p class="sinopse-anime">${sinopse}</p>
-        </div>
-    `;
-
-    return card;
 }
 
 function renderizarPaginacao() {
@@ -142,12 +154,21 @@ function preencherGeneros() {
     });
 }
 
+function mostrarCuriosidade(indice) {
+    const pCuriosidade = document.getElementById(`curiosidade-${indice}`);
+
+    if (pCuriosidade.style.display === 'none'){
+        pCuriosidade.style.display = 'block'; 
+    } else {
+        pCuriosidade.style.display = 'none';
+    }
+}
+
 function inicializar() {
     configurarTema();
     preencherGeneros();
     configurarEventos();
-    aplicarFiltros();
+    aplicarFiltros(); 
 }
 
 document.addEventListener("DOMContentLoaded", inicializar);
-

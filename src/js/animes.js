@@ -7,8 +7,8 @@ export const animes = [
     temporada: "Outono",
     genero: ["Ação", "Aventura", "Shounen"],
     capa: "https://cdn.myanimelist.net/images/anime/13/17405.jpg",
-    trailer: "https://www.youtube.com/watch?v=QkBL7y8rQZ4",
-    popularidade: 5
+    popularidade: 5,
+    curiosidade: "Naruto originalmente teria uma premissa muito diferente, onde ele teria cauda de raposa apenas."
   },
   {
     titulo: "Naruto Shippuden",
@@ -18,8 +18,8 @@ export const animes = [
     temporada: "Outono",
     genero: ["Ação", "Aventura", "Shounen"],
     capa: "https://cdn.myanimelist.net/images/anime/5/17407.jpg",
-    trailer: "https://www.youtube.com/watch?v=8l6QPH_9Vco",
-    popularidade: 3
+    popularidade: 3,
+    curiosidade: "Naruto originalmente teria uma premissa muito diferente, onde ele teria cauda de raposa apenas."
   },
   {
     titulo: "One Piece",
@@ -29,8 +29,8 @@ export const animes = [
     temporada: "Outono",
     genero: ["Ação", "Aventura", "Fantasia"],
     capa: "https://cdn.myanimelist.net/images/anime/6/73245.jpg",
-    trailer: "https://www.youtube.com/watch?v=xsXcCgt19co",
-    popularidade: 1
+    popularidade: 1,
+    curiosidade: "One Piece é o mangá mais vendido da história do Japão."
   },
   {
     titulo: "Dragon Ball Z",
@@ -40,8 +40,8 @@ export const animes = [
     temporada: "Outono",
     genero: ["Ação", "Aventura", "Fantasia"],
     capa: "https://cdn.myanimelist.net/images/anime/6/22049.jpg",
-    trailer: "https://www.youtube.com/watch?v=Oe421EPjeBE",
-    popularidade: 2
+    popularidade: 2,
+    curiosidade: "Dragon Ball Z popularizou as batalhas longas e transformações em animes."
   },
   {
     titulo: "Dragon Ball Super",
@@ -51,8 +51,8 @@ export const animes = [
     temporada: "Verão",
     genero: ["Ação", "Aventura", "Fantasia"],
     capa: "https://cdn.myanimelist.net/images/anime/5/74745.jpg",
-    trailer: "https://www.youtube.com/watch?v=3PSxIQ8K0yQ",
-    popularidade: 10
+    popularidade: 10,
+    curiosidade: "Dragon Ball Super trouxe novos níveis de poder e deuses no universo Dragon Ball."
   },
   {
     titulo: "Attack on Titan",
@@ -62,8 +62,8 @@ export const animes = [
     temporada: "Primavera",
     genero: ["Ação", "Drama", "Fantasia"],
     capa: "https://cdn.myanimelist.net/images/anime/10/47347.jpg",
-    trailer: "https://www.youtube.com/watch?v=MGRm4IzK1SQ",
-    popularidade: 4
+    popularidade: 4,
+    curiosidade: "A obra inspirou debates filosóficos sobre liberdade e sacrifício."
   },
   {
     titulo: "Death Note",
@@ -73,8 +73,8 @@ export const animes = [
     temporada: "Outono",
     genero: ["Mistério", "Sobrenatural", "Psicológico"],
     capa: "https://cdn.myanimelist.net/images/anime/9/9453.jpg",
-    trailer: "https://www.youtube.com/watch?v=NlJ8c0kQ4pM",
-    popularidade: 6
+    popularidade: 6,
+    curiosidade: "Death Note teve um impacto cultural global, inspirando várias adaptações."
   },
   {
     titulo: "Fullmetal Alchemist: Brotherhood",
@@ -84,8 +84,8 @@ export const animes = [
     temporada: "Primavera",
     genero: ["Ação", "Aventura", "Drama"],
     capa: "https://cdn.myanimelist.net/images/anime/1223/96541.jpg",
-    trailer: "https://www.youtube.com/watch?v=EkL3h6X1RQQ",
-    popularidade: 7
+    popularidade: 7,
+    curiosidade: "A história é uma adaptação fiel ao mangá original."
   },
   {
     titulo: "My Hero Academia",
@@ -95,8 +95,8 @@ export const animes = [
     temporada: "Primavera",
     genero: ["Ação", "Superpoderes", "Shounen"],
     capa: "https://cdn.myanimelist.net/images/anime/10/78745.jpg",
-    trailer: "https://www.youtube.com/watch?v=AMdHzeYUlOw",
-    popularidade: 8
+    popularidade: 8,
+    curiosidade: "My Hero Academia é um dos animes shounen mais populares da década."
   },
   {
     titulo: "Demon Slayer",
@@ -106,8 +106,8 @@ export const animes = [
     temporada: "Primavera",
     genero: ["Ação", "Sobrenatural", "Drama"],
     capa: "https://cdn.myanimelist.net/images/anime/1286/99889.jpg",
-    trailer: "https://www.youtube.com/watch?v=VQGCKyvzIM4",
-    popularidade: 9
+    popularidade: 9,
+    curiosidade: "Demon Slayer quebrou recordes de bilheteria no Japão."
   },
   {
     titulo: "Sword Art Online",
@@ -117,8 +117,8 @@ export const animes = [
     temporada: "Verão",
     genero: ["Ação", "Aventura", "Romance"],
     capa: "https://cdn.myanimelist.net/images/anime/11/39717.jpg",
-    trailer: "https://www.youtube.com/watch?v=1wYn5bykR3Y",
-    popularidade: 15
+    popularidade: 15,
+    curiosidade: "Sword Art Online ajudou a popularizar animes de jogos virtuais."
   },
   {
     titulo: "Tokyo Ghoul",
@@ -128,8 +128,8 @@ export const animes = [
     temporada: "Outono",
     genero: ["Ação", "Sobrenatural", "Drama"],
     capa: "https://cdn.myanimelist.net/images/anime/5/64449.jpg",
-    trailer: "https://www.youtube.com/watch?v=Ij9KbczzrSI",
-    popularidade: 14
+    popularidade: 14,
+    curiosidade: "Tokyo Ghoul explora temas de identidade e aceitação."
   },
   {
     titulo: "Hunter x Hunter (2011)",
@@ -139,8 +139,8 @@ export const animes = [
     temporada: "Outono",
     genero: ["Ação", "Aventura", "Shounen"],
     capa: "https://cdn.myanimelist.net/images/anime/1337/99013.jpg",
-    trailer: "https://www.youtube.com/watch?v=WTnZT16N7pE",
-    popularidade: 12
+    popularidade: 12,
+    curiosidade: "O autor de Hunter x Hunter é conhecido por suas pausas longas."
   },
   {
     titulo: "Bleach",
@@ -150,8 +150,8 @@ export const animes = [
     temporada: "Outono",
     genero: ["Ação", "Sobrenatural", "Shounen"],
     capa: "https://cdn.myanimelist.net/images/anime/3/40451.jpg",
-    trailer: "https://www.youtube.com/watch?v=3T8mDj0z6bc",
-    popularidade: 13
+    popularidade: 13,
+    curiosidade: "Bleach teve um grande impacto na cultura pop dos anos 2000."
   },
   {
     titulo: "Fairy Tail",
@@ -161,8 +161,8 @@ export const animes = [
     temporada: "Outono",
     genero: ["Ação", "Aventura", "Fantasia"],
     capa: "https://cdn.myanimelist.net/images/anime/5/69696.jpg",
-    trailer: "https://www.youtube.com/watch?v=3loJq_Lwp6s",
-    popularidade: 11
+    popularidade: 11,
+    curiosidade: "Fairy Tail é conhecido por sua forte ênfase em amizade."
   },
   {
     titulo: "Steins;Gate",
@@ -172,8 +172,8 @@ export const animes = [
     temporada: "Primavera",
     genero: ["Sci-Fi", "Suspense", "Drama"],
     capa: "https://cdn.myanimelist.net/images/anime/5/73199.jpg",
-    trailer: "https://www.youtube.com/watch?v=gn2iA2qFplM",
-    popularidade: 16
+    popularidade: 16,
+    curiosidade: "Steins;Gate é considerado um dos melhores animes de viagem no tempo."
   },
   {
     titulo: "Tokyo Revengers",
@@ -183,7 +183,8 @@ export const animes = [
     temporada: "Primavera",
     genero: ["Ação", "Drama", "Supernatural"],
     capa: "https://cdn.myanimelist.net/images/anime/1924/116635.jpg",
-    popularidade: 18
+    popularidade: 18,
+    curiosidade: "Tokyo Revengers traz uma mistura de drama e ação com viagem no tempo."
   },
   {
     titulo: "Mob Psycho 100",
@@ -193,6 +194,7 @@ export const animes = [
     temporada: "Outono",
     genero: ["Ação", "Comédia", "Sobrenatural"],
     capa: "https://cdn.myanimelist.net/images/anime/8/78745.jpg",
-    popularidade: 20
+    popularidade: 20,
+    curiosidade: "Mob Psycho 100 é conhecido pelo seu estilo de animação único."
   }
 ];
