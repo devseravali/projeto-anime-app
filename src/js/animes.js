@@ -28,7 +28,7 @@ export const animes = [
     ano: 1999,
     temporada: "Outono",
     genero: ["Ação", "Aventura", "Fantasia"],
-    capa: "https://cdn.myanimelist.net/images/anime/6/73245.jpg",
+    capa: "src/images/one-piece.jpg",
     popularidade: 1,
     curiosidade: "One Piece é o mangá mais vendido da história do Japão."
   },
