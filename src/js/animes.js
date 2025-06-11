@@ -19,7 +19,7 @@ export const animes = [
     genero: ["Ação", "Aventura", "Shounen"],
     capa: "src/images/naruto-shippuden.jpg",
     popularidade: 3,
-    curiosidade: "Naruto originalmente teria uma premissa muito diferente, onde ele teria cauda de raposa apenas."
+    curiosidade: "A Akatsuki originalmente não era uma organização maligna foi criada para proteger a Vila da Chuva."
   },
   {
     titulo: "One Piece",

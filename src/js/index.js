@@ -62,16 +62,16 @@ function criarCardAnime(anime, index) {
 
     card.innerHTML = `
     <h3 class="titulo">${anime.titulo}</h3>
-    <p class= "ano"><strong>Ano:</strong> ${anime.ano}</p>
-    <p class= "temporada"><strong>Temporada:</strong> ${anime.temporada}</p>
-    <p class= "genero"><strong>Gênero:</strong> ${anime.genero.join(", ")}</p>
-    <p class= "sinopse"><strong>Sinopse:</strong> ${anime.sinopse}</p>
+    <p><strong>Ano:</strong> ${anime.ano}</p>
+    <p><strong>Temporada:</strong> ${anime.temporada}</p>
+    <p><strong>Gênero:</strong> ${anime.genero.join(", ")}</p>
+    <p><strong>Sinopse:</strong> ${anime.sinopse}</p>
     <img class= "imagem" src="${anime.capa}" alt="Capa do anime ${anime.titulo}"/>
     <button class="botao-curiosidade" data-index="${index}">
       Mostrar Curiosidade
     </button>
     <p id="curiosidade-${index}" class="curiosidade-anime" style="display:none;">
-      <strong>Curiosidade:</strong> ${anime.curiosidade}
+      <strong></strong> ${anime.curiosidade}
     </p>
     `;
 
