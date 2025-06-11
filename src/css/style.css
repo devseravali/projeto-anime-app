@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
     background-image: url('https://www.transparenttextures.com/patterns/pw-pattern.png');
     background-repeat: repeat;
     height: 100%;
@@ -92,7 +93,7 @@ header p {
     color: var(--cor-texto-secundario);
 }
 
-.form-filtros > div {
+.form-filtros>div {
     flex: 1 1 180px;
     display: flex;
     flex-direction: column;
@@ -105,7 +106,7 @@ header p {
     display: block;
 }
 
-.form-filtros select, 
+.form-filtros select,
 .form-filtros input[type="search"] {
     padding: 0.5rem;
     border: 1px solid var(--cor-borda);
@@ -163,6 +164,7 @@ header p {
     flex-direction: column;
     transition: border-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
     overflow: hidden;
+    line-height: 1.0;
 }
 
 .card-anime:hover {
@@ -171,22 +173,46 @@ header p {
     transform: translateY(-3px);
 }
 
-.btn-curiosidade {
-    background-color: var(--cor-curiosidade-bg);
-    color: var(--cor-curiosidade-texto);
-    border: 2px solid var(--cor-curiosidade-borda);
+.card-anime .titulo {
+    font-family: 'Cormorant Garamond', sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.card-anime p {
+    padding: 0.5rem;
+}
+
+.imagem {
+    height: 100%;
+    width: 100%;
+}
+
+button {
+    font-size: 15px;
     font-weight: 600;
+    background-color: var(---cor-curiosidade-bg);
+    color: var(--cor-curiosidade-texto);
+    border-color: var(--cor-curiosidade-borda);
     border-radius: 8px;
     cursor: pointer;
     transition: background-color 0.3s ease, color 0.3s ease;
     box-shadow: 1px 1px 3px rgba(90, 75, 60, 0.3);
 }
 
-.btn-curiosidade:hover {
-    background-color: var(--cor-curiosidade-hover);
-    color: var(--cor-curiosidade-texto);
-    border-color: var(--cor-curiosidade-borda);
-    box-shadow:  2px 2px 6px rgba(63, 83, 55, 0.4);
+button:hover {
+    background-color: var(--cor-primaria-hover);
+    border: var(--cor-borda-card-hover);
+    color: var(--cor-curiosidade-hover);
+    box-shadow: 2px 2px 6px rgba(63, 83, 55, 0.4);
+}
+
+.curiosidade-anime {
+    font-size: 19px;
+    line-height: 1;
+    font-weight: 500;
 }
 
 .toggle-switch {
@@ -194,19 +220,22 @@ header p {
     display: inline-block;
     width: 60px;
     height: 32px;
-  }
-  
-  .toggle-switch input {
+}
+
+.toggle-switch input {
     opacity: 0;
     width: 0;
     height: 0;
-  }
-  
-  .toggle-switch .slider {
+}
+
+.toggle-switch .slider {
     background-color: var(--cor-borda);
     position: absolute;
     cursor: pointer;
-    top: 0; left: 0; right: 0; bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
     border-radius: 34px;
     transition: background-color 0.4s;
     display: flex;
@@ -215,35 +244,35 @@ header p {
     padding: 0 6px;
     font-size: 14px;
     color: var(--cor-texto);
-  }
+}
 
-  .toggle-switch .slider i {
+.toggle-switch .slider i {
     font-size: 16px;
     width: 16px;
     height: 16px;
     text-align: center;
-  }  
-  
-  .toggle-switch .icone {
+}
+
+.toggle-switch .icone {
     opacity: 0;
     transition: opacity 0.3s ease;
     pointer-events: none;
-  }
-  
-  .toggle-switch .icone.claro {
-    opacity: 1;
-  }
-  
-  .toggle-switch input:checked + .slider .icone.claro {
-    opacity: 0;
-  }
-  
-  .toggle-switch input:checked + .slider .icone.escuro {
-    opacity: 1;
-    color: var(--cor-primaria); 
-  }
+}
 
-  footer {
+.toggle-switch .icone.claro {
+    opacity: 1;
+}
+
+.toggle-switch input:checked+.slider .icone.claro {
+    opacity: 0;
+}
+
+.toggle-switch input:checked+.slider .icone.escuro {
+    opacity: 1;
+    color: var(--cor-primaria);
+}
+
+footer {
     text-align: center;
     padding: 1rem;
     font-size: 0.875rem;
@@ -252,4 +281,4 @@ header p {
     border-top: 1px solid var(--cor-borda);
     background-color: var(--cor-fundo-card);
     transition: background-color 0.3s ease, color 0.3s ease;
-} 
+}
