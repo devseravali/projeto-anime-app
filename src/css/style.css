@@ -2,7 +2,6 @@ html,
 body {
     background-image: url('https://www.transparenttextures.com/patterns/pw-pattern.png');
     background-repeat: repeat;
-    height: 100%;
     margin: 0;
     font-family: 'Cormorant Garamond', sans-serif;
     background-color: var(--cor-fundo);
