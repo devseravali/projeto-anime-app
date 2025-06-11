@@ -36,22 +36,45 @@ header p {
     font-weight: 500;
 }
 
+.logo {
+    width: 80px;
+    height: auto;
+    object-fit: contain;
+    border-radius: 8px;
+}
+
 .cabecalho {
     display: flex;
     align-items: center;
+    gap: 15px;
+    padding: 10px 20px;
     justify-content: space-between;
     padding: 0.9375rem 1.875rem;
     background-color: var(--cor-primaria);
+    flex-direction: row;
 }
 
 .titulo-cabecalho {
     margin: 0;
+    font-weight: 900;
+    font-size: 2.2rem;
 }
 
 .subtitulo-cabecalho {
-    margin: 0 1.25rem 0 0.625rem;
     font-weight: 500;
+    font-size: 1rem;
+    margin: 0;
+    opacity: 0.8;
     color: var(--cor-texto);
+}
+
+.titulo-cabecalho, .subtitulo-cabecalho {
+    line-height: 1.2;
+}
+
+.cabecalho > h1,
+.cabecalho > p {
+    display: block;
 }
 
 .slogan {
