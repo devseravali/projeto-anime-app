@@ -61,7 +61,7 @@ function criarCardAnime(anime, index) {
     card.className = 'card-anime';
 
     card.innerHTML = `
-    <h3 class="titulo">${anime.titulo}</h3>
+    <h3 class="titulo-anime">${anime.titulo}</h3>
     <p><strong>Ano:</strong> ${anime.ano}</p>
     <p><strong>Temporada:</strong> ${anime.temporada}</p>
     <p><strong>Gênero:</strong> ${anime.genero.join(", ")}</p>
