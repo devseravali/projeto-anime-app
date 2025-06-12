@@ -6,7 +6,7 @@ export const animes = [
     ano: 2002,
     temporada: "Outono",
     genero: ["Ação", "Aventura", "Shounen"],
-    capa: "src/images/naruto-clássico.jpg",
+    capa: "src/design/images/naruto-clássico.jpg",
     popularidade: 5,
     curiosidade: "Naruto originalmente teria uma premissa muito diferente, onde ele teria cauda de raposa apenas."
   },
@@ -17,7 +17,7 @@ export const animes = [
     ano: 2007,
     temporada: "Outono",
     genero: ["Ação", "Aventura", "Shounen"],
-    capa: "src/images/naruto-shippuden.jpg",
+    capa: "src/design/images/naruto-shippuden.jpg",
     popularidade: 3,
     curiosidade: "A Akatsuki originalmente não era uma organização maligna foi criada para proteger a Vila da Chuva."
   },
@@ -28,7 +28,7 @@ export const animes = [
     ano: 1999,
     temporada: "Outono",
     genero: ["Ação", "Aventura", "Fantasia"],
-    capa: "src/images/one-piece.jpg",
+    capa: "src/design/images/one-piece.jpg",
     popularidade: 1,
     curiosidade: "One Piece é o mangá mais vendido da história do Japão."
   },
@@ -39,7 +39,7 @@ export const animes = [
     ano: 1989,
     temporada: "Outono",
     genero: ["Ação", "Aventura", "Fantasia"],
-    capa: "src/images/dragon-ball-z.png",
+    capa: "src/design/images/dragon-ball-z.png",
     popularidade: 2,
     curiosidade: "Dragon Ball Z popularizou as batalhas longas e transformações em animes."
   },
@@ -50,7 +50,7 @@ export const animes = [
     ano: 2015,
     temporada: "Verão",
     genero: ["Ação", "Aventura", "Fantasia"],
-    capa: "src/images/dragon-ball-super.jpg",
+    capa: "src/design/images/dragon-ball-super.jpg",
     popularidade: 10,
     curiosidade: "Dragon Ball Super trouxe novos níveis de poder e deuses no universo Dragon Ball."
   },
@@ -61,7 +61,7 @@ export const animes = [
     ano: 2013,
     temporada: "Primavera",
     genero: ["Ação", "Drama", "Fantasia"],
-    capa: "src/images/attack-on-titan.jpg",
+    capa: "src/design/images/attack-on-titan.jpg",
     popularidade: 4,
     curiosidade: "A obra inspirou debates filosóficos sobre liberdade e sacrifício."
   },
@@ -72,7 +72,7 @@ export const animes = [
     ano: 2006,
     temporada: "Outono",
     genero: ["Mistério", "Sobrenatural", "Psicológico"],
-    capa: "src/images/death-note.jpg",
+    capa: "src/design/images/death-note.jpg",
     popularidade: 6,
     curiosidade: "Death Note teve um impacto cultural global, inspirando várias adaptações."
   },
@@ -83,7 +83,7 @@ export const animes = [
     ano: 2009,
     temporada: "Primavera",
     genero: ["Ação", "Aventura", "Drama"],
-    capa: "src/images/fullmetal-alchemist.jpg",
+    capa: "src/design/images/fullmetal-alchemist.jpg",
     popularidade: 7,
     curiosidade: "A história é uma adaptação fiel ao mangá original."
   },
@@ -94,7 +94,7 @@ export const animes = [
     ano: 2016,
     temporada: "Primavera",
     genero: ["Ação", "Superpoderes", "Shounen"],
-    capa: "src/images/my-hero-academia.jpg",
+    capa: "src/design/images/my-hero-academia.jpg",
     popularidade: 8,
     curiosidade: "My Hero Academia é um dos animes shounen mais populares da década."
   },
@@ -105,7 +105,7 @@ export const animes = [
     ano: 2019,
     temporada: "Primavera",
     genero: ["Ação", "Sobrenatural", "Drama"],
-    capa: "src/images/demon-slayer.jpg",
+    capa: "src/design/images/demon-slayer.jpg",
     popularidade: 9,
     curiosidade: "Demon Slayer quebrou recordes de bilheteria no Japão."
   },
@@ -116,7 +116,7 @@ export const animes = [
     ano: 2012,
     temporada: "Verão",
     genero: ["Ação", "Aventura", "Romance"],
-    capa: "src/images/sword-art-online.jpg",
+    capa: "src/design/images/sword-art-online.jpg",
     popularidade: 15,
     curiosidade: "Sword Art Online ajudou a popularizar animes de jogos virtuais."
   },
@@ -127,7 +127,7 @@ export const animes = [
     ano: 2014,
     temporada: "Outono",
     genero: ["Ação", "Sobrenatural", "Drama"],
-    capa: "src/images/tokyo-ghoul.jpg",
+    capa: "src/design/images/tokyo-ghoul.jpg",
     popularidade: 14,
     curiosidade: "Tokyo Ghoul explora temas de identidade e aceitação."
   },
@@ -138,7 +138,7 @@ export const animes = [
     ano: 2011,
     temporada: "Outono",
     genero: ["Ação", "Aventura", "Shounen"],
-    capa: "src/images/hunter-hunter.jpg",
+    capa: "src/design/images/hunter-hunter.jpg",
     popularidade: 12,
     curiosidade: "O autor de Hunter x Hunter é conhecido por suas pausas longas."
   },
@@ -149,7 +149,7 @@ export const animes = [
     ano: 2004,
     temporada: "Outono",
     genero: ["Ação", "Sobrenatural", "Shounen"],
-    capa: "src/images/bleach.jpg",
+    capa: "src/design/images/bleach.jpg",
     popularidade: 13,
     curiosidade: "Bleach teve um grande impacto na cultura pop dos anos 2000."
   },
@@ -160,7 +160,7 @@ export const animes = [
     ano: 2009,
     temporada: "Outono",
     genero: ["Ação", "Aventura", "Fantasia"],
-    capa: "src/images/fairy-tail.jpg",
+    capa: "src/design/images/fairy-tail.jpg",
     popularidade: 11,
     curiosidade: "Fairy Tail é conhecido por sua forte ênfase em amizade."
   },
@@ -171,7 +171,7 @@ export const animes = [
     ano: 2011,
     temporada: "Primavera",
     genero: ["Sci-Fi", "Suspense", "Drama"],
-    capa: "src/images/steins-gate.jpg",
+    capa: "src/design/images/steins-gate.jpg",
     popularidade: 16,
     curiosidade: "Steins;Gate é considerado um dos melhores animes de viagem no tempo."
   },
@@ -182,7 +182,7 @@ export const animes = [
     ano: 2021,
     temporada: "Primavera",
     genero: ["Ação", "Drama", "Supernatural"],
-    capa: "src/images/tokyo-revengers.jpg",
+    capa: "src/design/images/tokyo-revengers.jpg",
     popularidade: 18,
     curiosidade: "Tokyo Revengers traz uma mistura de drama e ação com viagem no tempo."
   },
@@ -193,7 +193,7 @@ export const animes = [
     ano: 2016,
     temporada: "Verão",
     genero: ["Ação", "Comédia", "Sobrenatural"],
-    capa: "src/images/mob-pyscho-100.jpg",
+    capa: "src/design/images/mob-pyscho-100.jpg",
     popularidade: 20,
     curiosidade: "Mob Psycho 100 é conhecido pelo seu estilo de animação único."
   },
@@ -204,7 +204,7 @@ export const animes = [
       ano: 2015,
       temporada: "Outono",
       genero: ["Ação", "Comédia", "Paródia"],
-      capa: "src/images/one-punch-man.jpg",
+      capa: "src/design/images/one-punch-man.jpg",
       popularidade: 92,
       curiosidade: "A origem do personagem é uma webcomic criada pelo autor ONE antes de virar anime."
     },
@@ -215,7 +215,7 @@ export const animes = [
       ano: 1998,
       temporada: "Outono",
       genero: ["Ação", "Aventura", "Sci-Fi"],
-      capa: "src/images/cowboy-bebop.jpg",
+      capa: "src/design/images/cowboy-bebop.jpg",
       popularidade: 85,
       curiosidade: "A trilha sonora jazz é um dos destaques da série."
     },
@@ -227,7 +227,7 @@ export const animes = [
       temporada: "Outono",
       genero: ["Drama", "Romance", 
       "Música"],
-      capa: "src/images/your-lie-in-april.jpg",
+      capa: "src/design/images/your-lie-in-april.jpg",
       popularidade: 80,
       curiosidade: "É conhecido por suas belas cenas musicais e emoção intensa."
     },
@@ -238,7 +238,7 @@ export const animes = [
       ano: 2016,
       temporada: "Primavera",
       genero: ["Fantasia", "Drama", "Suspense"],
-      capa: "src/images/re-zero-starting.jpg",
+      capa: "src/design/images/re-zero-starting.jpg",
       popularidade: 88,
       curiosidade: "O anime é baseado numa série de light novels populares."
     },
@@ -249,7 +249,7 @@ export const animes = [
       ano: 2018,
       temporada: "Inverno",
       genero: ["Drama", "Slice of Life", "Fantasia"],
-      capa: "src/images/violet-evergarden.jpg",
+      capa: "src/design/images/violet-evergarden.jpg",
       popularidade: 75,
       curiosidade: "A animação é conhecida pela sua qualidade visual e emocional.",
     },
@@ -260,7 +260,7 @@ export const animes = [
       ano: 2017,
       temporada: "Verão",
       genero: ["Aventura", "Drama", "Fantasia"],
-      capa: "src/images/made-in-abyss.jpg",
+      capa: "src/design/images/made-in-abyss.jpg",
       popularidade: 77,
       curiosidade: "Apesar da aparência fofa, o anime é muito sombrio e intenso.",
     },
@@ -271,7 +271,7 @@ export const animes = [
       ano: 2007,
       temporada: "Outono",
       genero: ["Drama", "Romance", "Slice of Life"],
-      capa: "src/images/clannad.jpg",
+      capa: "src/design/images/clannad.jpg",
       popularidade: 70,
       curiosidade: "Famoso por emocionar o público com sua narrativa tocante."
     },
@@ -282,7 +282,7 @@ export const animes = [
       ano: 2016,
       temporada: "Inverno",
       genero: ["Mistério", "Suspense", "Supernatural"],
-      capa: "src/images/erased.jpg",
+      capa: "src/design/images/erased.jpg",
       popularidade: 85,
       curiosidade: "Baseado em um mangá premiado e muito elogiado.",
     },
@@ -293,7 +293,7 @@ export const animes = [
       ano: 2014,
       temporada: "Outono",
       genero: ["Ação", "Terror", "Sci-Fi"],
-      capa: "src/images/parasyte-the-maxim.jpg",
+      capa: "src/design/images/parasyte-the-maxim.jpg",
       popularidade: 83,
       curiosidade: "O anime explora questões filosóficas sobre a coexistência entre espécies."
     },
@@ -304,7 +304,7 @@ export const animes = [
       ano: 2017,
       temporada: "Outono",
       genero: ["Ação", "Fantasia", "Aventura"],
-      capa: "src/images/black-clover.jpg",
+      capa: "src/design/images/black-clover.jpg",
       popularidade: 78,
       curiosidade: "Apesar das críticas iniciais, ganhou grande popularidade pela sua evolução ao longo do tempo.",
 
@@ -316,7 +316,7 @@ export const animes = [
       ano: 2019,
       temporada: "Inverno",
       genero: ["Ação", "Fantasia", "Isekai"],
-      capa: "src/images/the-rising-of-the-shield-hero.jpg",
+      capa: "src/design/images/the-rising-of-the-shield-hero.jpg",
       popularidade: 76,
       curiosidade: "O anime tem controvérsias, mas mantém uma base de fãs fiel.",
     },
@@ -327,7 +327,7 @@ export const animes = [
       ano: 2010,
       temporada: "Primavera",
       genero: ["Drama", "Comédia", "Sobrenatural"],
-      capa: "src/images/angel-beats.jpg",
+      capa: "src/design/images/angel-beats.jpg",
       popularidade: 72,
       curiosidade: "É conhecido pela sua trilha sonora marcante e emocionante.",
     },
@@ -338,7 +338,7 @@ export const animes = [
       ano: 2020,
       temporada: "Inverno",
       genero: ["Aventura", "Drama", "Fantasia"],
-      capa: "src/images/made-in-abyss-dawn.jpg",
+      capa: "src/design/images/made-in-abyss-dawn.jpg",
       popularidade: 70,
       curiosidade: "Filme que expande o universo e aprofunda os personagens da série original.",
     },
@@ -349,7 +349,7 @@ export const animes = [
       ano: 2019,
       temporada: "Primavera",
       genero: ["Comédia", "Romance", "Slice of Life"],
-      capa: "src/images/kaguya-sama.jpg",
+      capa: "src/design/images/kaguya-sama.jpg",
       popularidade: 83,
       curiosidade: "Mistura comédia romântica com batalhas psicológicas cômicas.",
     },
@@ -360,7 +360,7 @@ export const animes = [
       ano: 2021,
       temporada: "Primavera",
       genero: ["Ação", "Sci-Fi", "Drama"],
-      capa: "src/images/vivy-fluorite.jpg",
+      capa: "src/design/images/vivy-fluorite.jpg",
       popularidade: 75,
       curiosidade: "Anime original muito elogiado pela animação e trilha sonora.",
     },
@@ -371,7 +371,7 @@ export const animes = [
       ano: 2019,
       temporada: "Verão",
       genero: ["Ação", "Comédia", "Sobrenatural"],
-      capa: "src/images/mob-pyscho-100-II.jpg",
+      capa: "src/design/images/mob-pyscho-100-II.jpg",
       popularidade: 79,
       curiosidade: "Ainda melhor animado e com desenvolvimento emocional mais profundo.",
     },
@@ -382,7 +382,7 @@ export const animes = [
       ano: 2019,
       temporada: "Outono",
       genero: ["Ação", "Comédia", "Sobrenatural"],
-      capa: "src/images/mob-pyscho-100-III.jpg",
+      capa: "src/design/images/mob-pyscho-100-III.jpg",
       popularidade: 79,
       curiosidade: "Mob Psycho 100 foi criado pelo mangaká ONE, que também é responsável pelo sucesso One Punch Man."
     },
@@ -393,7 +393,7 @@ export const animes = [
       ano: 2021,
       temporada: "Primavera",
       genero: ["Drama", "Fantasia", "Aventura"],
-      capa: "src/images/to-your-eternity.jpg",
+      capa: "src/design/images/to-your-eternity.jpg",
       popularidade: 78,
       curiosidade: "Emocionante e reflexivo, ganhou elogios por sua narrativa profunda."
     },
@@ -404,7 +404,7 @@ export const animes = [
         ano: 2006,
         temporada: "Inverno",
         genero: ["Sci-Fi", "Mistério", "Psicológico"],
-        capa: "src/images/ergo-proxy.jpg",
+        capa: "src/design/images/ergo-proxy.jpg",
         popularidade: 65,
         curiosidade: "Mistura elementos de filosofia, ficção científica e suspense."
       },
@@ -417,7 +417,7 @@ export const animes = [
         genero: ["Mistério", "Suspense", "Terror"],
         popularidade: 90,
         curiosidade: "A música de abertura de The Promised Neverland, Touch Off da banda UVERworld, foi escrita especialmente para refletir a rebeldia das crianças contra seu destino.",
-        capa: "src/images/the-promised-neverland.jpg"
+        capa: "src/design/images/the-promised-neverland.jpg"
       },
       {
         titulo: "Yuri on Ice",
@@ -426,7 +426,7 @@ export const animes = [
         ano: 2016,
         temporada: "Outono",
         genero: ["Esporte", "Drama", "Romance"],
-        capa: "src/images/yuri-on-ice.jpg",
+        capa: "src/design/images/yuri-on-ice.jpg",
         popularidade: 68,
         curiosidade: "Foi o primeiro anime de esporte com temática LGBTQ+ a ganhar grande popularidade.",
       },
@@ -437,7 +437,7 @@ export const animes = [
         ano: 2010,
         temporada: "Outono",
         genero: ["Comédia", "Drama", "Slice of Life"],
-        capa: "src/images/bakuman.jpg",
+        capa: "src/design/images/bakuman.jpg",
         popularidade: 60,
         curiosidade: "Criado pelo mesmo autor de Death Note, Tsugumi Ohba."
       },
@@ -448,7 +448,7 @@ export const animes = [
         ano: 2014,
         temporada: "Primavera",
         genero: ["Fantasia", "Comédia", "Aventura"],
-        capa: "src/images/no-game-no-life.jpg",
+        capa: "src/design/images/no-game-no-life.jpg",
         popularidade: 75,
         curiosidade: "Famoso por sua arte colorida e jogos estratégicos complexos."
       },
@@ -459,7 +459,7 @@ export const animes = [
         ano: 2017,
         temporada: "Outono",
         genero: ["Fantasia", "Drama", "Romance"],
-        capa: "src/images/the-ancient-magus.jpg",
+        capa: "src/design/images/the-ancient-magus.jpg",
         popularidade: 70,
         curiosidade: "Popular pela sua atmosfera sombria e personagens cativantes."
       },
@@ -470,7 +470,7 @@ export const animes = [
         ano: 2011,
         temporada: "Primavera",
         genero: ["Drama", "Slice of Life", "Sobrenatural"],
-        capa: "src/images/anohana-the-flower.jpg",
+        capa: "src/design/images/anohana-the-flower.jpg",
         popularidade: 65,
         curiosidade: "É famoso por emocionar profundamente o público."
       },
@@ -481,7 +481,7 @@ export const animes = [
         ano: 2006,
         temporada: "Outono",
         genero: ["Ação", "Terror", "Sobrenatural"],
-        capa: "src/images/hellsing-ultimate.jpg",
+        capa: "src/design/images/hellsing-ultimate.jpg",
         popularidade: 60,
         curiosidade: "Reconhecido pela animação intensa e sangue exagerado."
       },
@@ -492,7 +492,7 @@ export const animes = [
         ano: 2019,
         temporada: "Outono",
         genero: ["Drama", "Romance", "Slice of Life"],
-        capa: "src/images/beastarts.jpg",
+        capa: "src/design/images/beastarts.jpg",
         popularidade: 68,
         curiosidade: "Destaca-se pela abordagem adulta e psicológica dos personagens.",
       },
@@ -503,7 +503,7 @@ export const animes = [
         ano: 2017,
         temporada: "Outono",
         genero: ["Ação", "Drama", "Fantasia"],
-        capa: "src/images/land-of-the-lustrous.jpg",
+        capa: "src/design/images/land-of-the-lustrous.jpg",
         popularidade: 63,
         curiosidade: "Animação em CGI com estilo único e elogiado."
       },
@@ -514,7 +514,7 @@ export const animes = [
         ano: 2014,
         temporada: "Verão",
         genero: ["Mistério", "Suspense", "Drama"],
-        capa: "src/images/terror-in-resonance.jpg",
+        capa: "src/design/images/terror-in-resonance.jpg",
         popularidade: 60,
         curiosidade: "Dirigido pelo criador de Death Note, trazendo suspense intenso."
       },
@@ -525,7 +525,7 @@ export const animes = [
         ano: 2011,
         temporada: "Primavera",
         genero: ["Ação", "Fantasia", "Sobrenatural"],
-        capa: "src/images/blue-exorcist.jpg",
+        capa: "src/design/images/blue-exorcist.jpg",
         popularidade: 75,
         curiosidade: "Possui uma base de fãs sólida e uma segunda temporada lançada anos depois."
       },
@@ -536,7 +536,7 @@ export const animes = [
         ano: 2014,
         temporada: "Inverno",
         genero: ["Ação", "Comédia", "Sobrenatural"],
-        capa: "src/images/noragami.jpg",
+        capa: "src/design/images/noragami.jpg",
         popularidade: 70,
         curiosidade: "Mistura comédia e ação sobrenatural de forma leve e divertida."
       },
@@ -547,7 +547,7 @@ export const animes = [
         ano: 2005,
         temporada: "Outono",
         genero: ["Fantasia", "Mistério", "Slice of Life"],
-        capa: "src/images/mushishi.jpg",
+        capa: "src/design/images/mushishi.jpg",
         popularidade: 65,
         curiosidade: "Conhecido pelo ritmo tranquilo e atmosfera contemplativa."
       },
@@ -558,7 +558,7 @@ export const animes = [
           ano: 2022,
           temporada: "Outono",
           genero: ["Ação", "Sobrenatural", "Thriller"],
-          capa: "src/images/chainsaw-man.jpg",
+          capa: "src/design/images/chainsaw-man.jpg",
           popularidade: 91,
           curiosidade: "A música de abertura “KICK BACK” ultrapassou 100 milhões de visualizações em seis meses."
         },
@@ -569,7 +569,7 @@ export const animes = [
           ano: 2024,
           temporada: "Outono",
           genero: ["Ação", "Ciência-Ficção", "Shonen"],
-          capa: "src/images/kaiju-8.jpg",
+          capa: "src/design/images/kaiju-8.jpg",
           popularidade: 85,
           curiosidade: "Terá um filme compilatório com episódio inédito lançado em março de 2025."
         },
@@ -580,7 +580,7 @@ export const animes = [
           ano: 2024,
           temporada: "Outono",
           genero: ["Ação", "Fantasia", "Sobrenatural"],
-          capa: "src/images/dan-da-dan.jpg",
+          capa: "src/design/images/dan-da-dan.jpg",
           popularidade: 88,
           curiosidade: "DanDaDan mistura elementos de terror, comédia e ficção científica, criando uma trama única e imprevisível. A série ganhou destaque por seu ritmo acelerado e personagens carismáticos."
         },
@@ -591,7 +591,7 @@ export const animes = [
           ano: 2023,
           temporada: "Outono",
           genero: ["Fantasia", "Aventura", "Drama"],
-          capa: "src/images/frieren-beyond.jpg",
+          capa: "src/design/images/frieren-beyond.jpg",
           popularidade: 92,
           curiosidade: " O anime usa uma narrativa fragmentada que exige que o espectador junte as peças da história. Isso torna a experiência mais envolvente e cheia de mistérios."
         },
@@ -602,7 +602,7 @@ export const animes = [
           ano: 2023,
           temporada: "Outono",
           genero: ["Mistério", "Drama", "Romance"],
-          capa: "src/images/the-apothecary-diaries.jpg",
+          capa: "src/design/images/the-apothecary-diaries.jpg",
           popularidade: 87,
           curiosidade: "A protagonista Maomao é inspirada em mulheres sábias da medicina tradicional chinesa, e muitas das doenças e remédios retratados no anime têm base real em práticas medicinais da Ásia oriental."
         },
@@ -613,7 +613,7 @@ export const animes = [
           ano: 2024,
           temporada: "Primavera",
           genero: ["Ação", "Esportes", "Shonen"],
-          capa: "src/images/wind-breaker.jpg",
+          capa: "src/design/images/wind-breaker.jpg",
           popularidade: 80,
           curiosidade: " O protagonista Haruka Sakura começa como um anti-herói solitário e violento, e a história mostra seu crescimento ao aprender o valor dos laços com os outros."
         },
@@ -624,7 +624,7 @@ export const animes = [
           ano: 2025,
           temporada: "Inverno",
           genero: ["Ação", "Comédia", "Drama"],
-          capa: "src/images/sakamoto-days.jpg",
+          capa: "src/design/images/sakamoto-days.jpg",
           popularidade: 84,
           curiosidade: "akamoto Days foi inspirado em filmes de ação e comédia como “John Wick” e “Mr. & Mrs. Smith”. O autor, Yuto Suzuki, equilibra humor cotidiano com cenas de luta coreografadas de forma cinematográfica."
         },
@@ -635,7 +635,7 @@ export const animes = [
           ano: 2025,
           temporada: "Primavera",
           genero: ["Ação", "Sobrenatural", "Fantasia"],
-          capa: "src/images/fire-force.jpg",
+          capa: "src/design/images/fire-force.jpg",
           popularidade: 83,
           curiosidade: "A épica luta Shinra vs Burns (ep.6) foi considerada das melhores de 2025."
         },
@@ -646,7 +646,7 @@ export const animes = [
           ano: 2025,
           temporada: "Verão",
           genero: ["Sci-fi", "Steampunk", "Aventura"],
-          capa: "src/images/lazarus.jpg",
+          capa: "src/design/images/lazarus.jpg",
           popularidade: 76,
           curiosidade: "Criado por Shinichirō Watanabe, promete visual e narrativa marcantes."
         },
@@ -657,7 +657,7 @@ export const animes = [
           ano: 2025,
           temporada: "Primavera",
           genero: ["Ação", "Comédia", "Slice of Life", "Espionagem"],
-          capa:"src/images/spy-family.jpg",
+          capa:"src/design/images/spy-family.jpg",
           popularidade: 90,
           curiosidade: "Indicada como ‘Melhor Série Contínua’ e vencedora de ‘Melhor Comédia’ nos Crunchyroll Awards."
         },
@@ -668,7 +668,7 @@ export const animes = [
             ano: 2025,
             temporada: "Primavera",
             genero: ["Ação", "Slice of Life", "Comédia"],
-            capa: "src/images/lycoris-recoil.jpg",
+            capa: "src/design/images/lycoris-recoil.jpg",
             popularidade: 78,
             curiosidade: "Continuação do sucesso de 2022, mantendo o tom descontraído e de ação leve." 
           },
@@ -679,7 +679,7 @@ export const animes = [
             ano: 2025,
             temporada: "Outono",
             genero: ["Slice of Life", "Artes", "Drama"],
-            capa: "src/images/mono.jpg",
+            capa: "src/design/images/mono.jpg",
             popularidade: 65,
             curiosidade: "Destacado pelo site Vulture como 'celebração artística' em 2025" ,
           },
@@ -690,7 +690,7 @@ export const animes = [
             ano: 2025,
             temporada: "Verão",
             genero: ["Sci‑fi", "Mistério", "Aventura"],
-            capa: "src/images/moonrise.jpg",
+            capa: "src/design/images/moonrise.jpg",
             popularidade: 74,
             curiosidade: "Citado entre os lançamentos mais aguardados de inverno/verão 2025" ,
             }, 
@@ -701,7 +701,7 @@ export const animes = [
               ano: 2025,
               temporada: "Primavera",
               genero: ["Ação", "Sobrenatural", "Dark Fantasy"],
-              capa: "src/images/devil-may-cry.jpg",
+              capa: "src/design/images/devil-may-cry.jpg",
               popularidade: 82,
               curiosidade: "Anime exclusivo da Netflix, produzido com grande investimento em animação pesada."
             },
@@ -712,7 +712,7 @@ export const animes = [
               ano: 2025,
               temporada: "Verão",
               genero: ["Ação", "Fantasia", "Shonen"],
-              capa: "src/images/bleach-thousand-year.jpg",
+              capa: "src/design/images/bleach-thousand-year.jpg",
               popularidade: 93,
               curiosidade: "Parte final do arco mais aclamado da franquia, encerrando a saga do Sangue Milenar." 
             },
@@ -723,7 +723,7 @@ export const animes = [
               ano: 2021,
               temporada: "Outono",
               genero: ["Fantasia", "Aventura", "Drama"],
-              capa: "src/images/ousama-ranking.jpg",
+              capa: "src/design/images/ousama-ranking.jpg",
               popularidade: 87,
               curiosidade: "Apesar da aparência infantil, o anime trata de temas maduros e emocionais."
             }                   
