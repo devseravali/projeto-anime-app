@@ -1,0 +1,323 @@
+ @media (max-width:480px) {
+     header {
+         height: auto;
+         min-height: 150px;
+     }
+
+     header.cabecalho {
+         flex-direction: column;
+         align-items: center;
+         padding: 1rem 1rem 2rem;
+         gap: 10px;
+     }
+
+     .logo {
+         width: 70px;
+         margin-bottom: 0;
+     }
+
+     .titulo-cabecalho {
+         font-size: 1.5rem;
+         text-align: center;
+     }
+
+     .subtitulo-cabecalho {
+         font-size: 1rem;
+         text-align: center;
+     }
+
+     .toggle-switch {
+         width: 80px;
+         height: 40px;
+         margin-top: 8px;
+     }
+
+     .toggle-switch .slider {
+         border-radius: 40px;
+         padding: 0 10px;
+         font-size: 22px;
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+     }
+
+     .toggle-switch .slider i {
+         font-size: 26px;
+         width: 26px;
+         height: 26px;
+         text-align: center;
+     }
+
+     .toggle-switch .slider::before {
+         content: "";
+         position: absolute;
+         height: 36px;
+         width: 36px;
+         left: 2px;
+         bottom: 2px;
+         transition: transform 0.4s ease;
+         box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+     }
+
+     .toggle-switch input:checked+.slider::before {
+         transform: translateX(40px);
+     }
+
+     .toggle-switch .icone.claro {
+         opacity: 1;
+     }
+
+     .toggle-switch input:checked+.slider .icone.claro {
+         opacity: 0;
+     }
+
+     .toggle-switch input:checked+.slider .icone.escuro {
+         opacity: 1;
+         transition: opacity 0.3s ease;
+     }
+
+     .form-filtros {
+         padding: 1rem;
+         gap: 0.75rem;
+         flex-direction: column;
+         width: 90%;
+     }
+
+     .grupos-filtros {
+         width: 100%;
+     }
+
+     .secao-lista-animes {
+         grid-template-columns: 1fr;
+         gap: 1rem;
+         padding: 1rem;
+     }
+
+     footer.rodape {
+         font-size: 0.8rem;
+         padding: 0.8rem 1rem;
+     }
+ }
+
+ @media (max-width: 768px) {
+     header.cabecalho {
+         flex-direction: row;
+         align-items: center;
+         justify-content: space-between;
+         padding: 1rem 2rem;
+         gap: 15px;
+     }
+
+     .logo {
+         width: 80px;
+         margin-bottom: 0;
+     }
+
+     .titulo-cabecalho {
+         font-size: 2rem;
+         text-align: left;
+         flex-grow: 1;
+     }
+
+     .subtitulo-cabecalho {
+         font-size: 1rem;
+         text-align: left;
+         margin-left: 10px;
+     }
+
+     .toggle-switch {
+         width: 200px;
+         height: 30px;
+         margin-top: 0;
+     }
+
+     .toggle-switch .slider {
+         font-size: 18px;
+         padding: 0 8px;
+         border-radius: 30px;
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+     }
+
+     .toggle-switch .slider i {
+         font-size: 22px;
+         width: 22px;
+         height: 22px;
+     }
+
+     .toggle-switch input:checked+.slider::before {
+         transform: translateX(30px);
+     }
+
+     .form-filtros {
+         padding: 1.5rem 2rem;
+         display: grid;
+         grid-template-columns: 1fr 1fr;
+         gap: 1rem 2rem;
+         align-items: center;
+     }
+
+     .grupos-filtros {
+         width: 100%;
+     }
+
+     .secao-lista-animes {
+         display: grid;
+         grid-template-columns: repeat(2, 1fr);
+         gap: 1.5rem;
+         padding: 1.5rem 2rem;
+     }
+
+     footer.rodape {
+         font-size: 1rem;
+         padding: 1rem 2rem;
+     }
+ }
+
+ @media (max-width: 1023px) {
+    header.cabecalho {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 2rem 4rem;
+        gap: 25px;
+    }
+
+    .logo {
+        width: 120px;
+        margin-bottom: 0;
+    }
+
+    .titulo-cabecalho {
+        font-size: 3rem;
+        text-align: left;
+        flex-grow: 1;
+    }
+
+    .subtitulo-cabecalho {
+        font-size: 1.75rem;
+        text-align: left;
+        margin-left: 20px;
+    }
+
+    .toggle-switch {
+        width: 100px;
+        height: 40px;
+        margin-top: 0;
+    }
+
+    .toggle-switch .slider {
+        font-size: 22px;
+        padding:  0 12px;
+        border-radius: 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .toggle-switch .slider i {
+        font-size: 26px;
+        width: 26px;
+        height: 26px;
+    }
+
+    .toggle-switch .slider::before {
+        height: 36px;
+        width: 36px;
+        left: 2px;
+        bottom: 2px;
+    }
+
+    .form-filtros {
+        padding: 2rem 4rem;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 2rem 3rem;
+        align-items: center;
+    }
+
+    .grupos-filtros {
+        width: 100%;
+    }
+
+    .secao-lista-animes {
+        display: grid;
+        grid-template-columns:  repeat(4, 1fr);
+        gap: 2.5rem;
+        padding: 2rem 4rem;
+    }
+
+    footer.rodape {
+        font-size: 1.2rem;
+        padding: 1.5rem 4rem;
+    }
+ }
+
+ @media (max-width: 1366px) {
+    header.cabecalho {
+        padding: 1.5rem 3rem;
+        gap: 20px;
+    }
+
+    .logo {
+        width: 100px;
+    }
+
+    .titulo-cabecalho {
+        font-size: 2.5rem;
+    }
+
+    .subtitulo-cabecalho {
+        font-size: 1.25rem;
+    }
+
+    .toggle-switch {
+        width: 70px;
+        height: 36px;
+    }
+
+    .toggle-switch .slider {
+        font-size: 20px;
+        padding: 0 10px;
+    }
+
+    .toggle-switch .slider i {
+        font-size: 24px;
+        width: 24px;
+        height: 24px;
+    }
+
+    .toggle-switch .slider::before {
+        height: 32px;
+        width: 32px;
+        left: 2px;
+        bottom: 2px;
+    }
+
+    .toggle-switch input:checked + .slider::before {
+        transform: translateX(36px);
+    }
+
+    .form-filtros {
+        padding: 2rem 3rem;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, min-max(200px, 1fr));
+        gap: 1.5rem;
+    }
+
+    .grupos-filtros {
+        width: 100%;
+    }
+
+    .secao-lista-animes {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+        padding: 2rem 3rem;
+    }
+
+    footer.rodape {
+        font-size: 1rem;
+        padding: 1.2rem 3rem;
+    }
+ }
